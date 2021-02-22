@@ -1,0 +1,119 @@
+header{
+    background-image: url('https://cdn.oneesports.gg/wp-content/uploads/2020/10/Genshin_Impact_Klee-1024x576.jpg');
+    padding-bottom: 0%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    margin:0%;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 500%;
+
+    color:crimson;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #fff;
+}
+header h2{
+    margin:0%;
+    padding-top: 2%;
+    text-align: center;
+    font-size: 500%;
+
+    color:crimson;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+}
+header a.main{
+    display: block;
+    margin:0%;
+    margin-left: 20%;
+    margin-right: 20%;
+
+    color:black;
+    backdrop-filter: brightness(100%);
+
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color:black;
+}
+header a.current{
+    border-style: black solid;
+    backdrop-filter: brightness(100%);
+}
+header a{
+    margin-top: 10%;
+    margin-bottom: 5%;
+    margin-left: 3.25%;
+
+    display: inline-block;
+    text-decoration: none;
+    color: crimson;
+    font-weight: bold;
+    font-size: 300%;
+
+    border-style: solid;
+    backdrop-filter: brightness(50%);
+    
+    padding:5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+a:hover{
+    transition: transform 1s;
+    transform: scale(1.25,1);
+}
+h2{
+    text-align: center;
+    display: inline-block;
+    color: crimson;
+    font-size: 300%;
+    margin: 0%;
+}
+ol{
+    list-style-type: none;
+}
+li{
+    float: left;
+    width: 60%;
+}
+p{
+    font-size: 200%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+div.class h1{
+    text-align: center;
+}
+table{
+    margin: 0%;
+    border: 0ch;
+    border-collapse: collapse;
+}
+th::after{
+    content: ': ';
+}
+td{
+    text-align: right;
+}
+th{
+    text-align: left;
+}
+section.intro{
+    float: right;
+    width: 20%;
+
+    margin: auto;
+    border: 3px solid crimson;
+    padding: 10px;
+}
+section.intro h1{
+    border-bottom: 4px solid crimson;
+}
+body{
+    background-color: grey;
+    background-image: url('https://i2.wp.com/d9n64ieh9hz8y.cloudfront.net/wp-content/uploads/20201031100942/genshin-impact-ban-cap-nhat-a-new-star-approaches-tin-game.jpg?fit=1920%2C560&ssl=1');
+    width: fit-content;
+    min-width: 900px;
+}
