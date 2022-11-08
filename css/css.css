@@ -1,0 +1,48 @@
+#wrapper {
+	position: absolute;
+    margin-left: 43vw;
+    margin-right: 43vw;
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+	animation:pulse 1s infinite;
+}
+body{
+    animation:backgroundOnPulse 1s infinite;
+}
+
+#pulsingheart { 
+  position: relative; 
+  width: 14vw; 
+  height: 50vh;
+} 
+
+#pulsingheart:before, #pulsingheart:after { 
+  position: absolute; 
+  content: ""; 
+  left: 100px; 
+  top: 0; 
+  width: 100px; 
+  height: 160px; 
+  background: #aa0000; 
+  border-radius: 100px 100px 0 0; 
+  transform: rotate(-45deg);  
+  transform-origin: 0 100%;
+  animation:pulsecolor 1s infinite;
+} 
+
+#pulsingheart:after { 
+  left: 0; 
+  transform: rotate(45deg); 
+  transform-origin :100% 100%;
+  animation:pulsecolor 1s infinite;
+}
+
+@keyframes pulse {
+	10% {transform: scale(1.1);}
+}
+@keyframes backgroundOnPulse {
+    10% {background-color: pink;}
+}
+@keyframes pulsecolor {
+  10% {background: #dd0000}
+}
